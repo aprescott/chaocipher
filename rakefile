@@ -1,0 +1,7 @@
+require "rake"
+
+task :test do
+  system("ruby -I lib -I test test/test_chaocipher.rb")
+end
+
+task :default => :test

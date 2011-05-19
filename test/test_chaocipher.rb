@@ -1,7 +1,6 @@
 require "test/unit"
 
-require "ext/core/array/rotate"
-require "lib/chaocipher"
+require "chaocipher"
 
 class TestChaoCipher < Test::Unit::TestCase
   def setup
