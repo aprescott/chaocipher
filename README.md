@@ -35,12 +35,12 @@ The Chaocipher works off two alphabets, a "left" and a "right" alphabet which ar
 
     require "chaocipher"
     
-	ciphertext_alphabet = "HXUCZVAMDSLKPEFJRIGTWOBNYQ"
-	plaintext_alphabet = "PTLNBQDEOYSFAVZKGJRIHWXUMC"
-	
+    ciphertext_alphabet = "HXUCZVAMDSLKPEFJRIGTWOBNYQ"
+    plaintext_alphabet = "PTLNBQDEOYSFAVZKGJRIHWXUMC"
+    
     cipher = ChaoCipher::Cipher.new(ciphertext_alphabet, plaintext_alphabet)
-	
-	cipher.encrypt("WELLDONEISBETTERTHANWELLSAID") #=> "OAHQHCNYNXTSZJRRHJBYHQKSOUJY"
+    
+    cipher.encrypt("WELLDONEISBETTERTHANWELLSAID") #=> "OAHQHCNYNXTSZJRRHJBYHQKSOUJY"
 
 # Cryptographic security
 
